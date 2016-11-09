@@ -14,7 +14,7 @@
 .keep
 
 # Ignore all logfiles and tempfiles.
-/log/.keep *
+/log/
 /tmp
 .idea
 
