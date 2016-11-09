@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= controller_name.capitalize %></title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%= render 'layoutespecific' if @switch %>
+<h1>Esta es mi aplicacion</h1>
+<br>
+<%= yield %>
+<h2>Este es mi footer</h2>
+</body>
+</html>
