@@ -5,7 +5,9 @@ table.grid, table.grid th, table.grid td {
     border-width: 2px;
     border-style: solid;
     border-collapse: collapse;
-
+  th {
+    background-color: lightgray;
+  }
 }
 table.grid {
   td, th {
@@ -15,5 +17,6 @@ table.grid {
 
 
 .field_with_errors {
+  border: solid 1px red;
   color: red;
 }
