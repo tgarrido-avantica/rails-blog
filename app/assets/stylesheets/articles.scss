@@ -1,20 +1,18 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-table.grid, table.grid th, table.grid td {
-    border-width: 2px;
-    border-style: solid;
-    border-collapse: collapse;
+table.grid {
+  border-collapse: collapse;
+
+  td, th {
+    border: solid 2px darkgray;
+    padding: 5px;
+  }
+
   th {
     background-color: lightgray;
   }
 }
-table.grid {
-  td, th {
-    padding: 5px;
-  }
-}
-
 
 .field_with_errors input{
   border: solid 1px red;
